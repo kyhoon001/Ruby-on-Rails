@@ -26,3 +26,18 @@
 	- for x in 0 .. 10 puts x end 이런 식으로 사용
 	- 0 .. 2 의 경우 0 1 2가 출력 0 ... 2 의 경우 0 1 출력
 - for 변수 in 배열 end : 변수에 배열의 원소값이 담겨서 사용
+
+### method
+- def 이름(매개변수) 
+ 내용
+ return 반환
+ end
+ 
+ ## Rails 웹 프레임워크
+ - MVC모델 (Spring과 같음)
+ 
+ ### 기본구조
+ 1. tcp 연결
+ - M(model : 데이터베이스의 정보를 가져오는 등 데이터를 다룸)VC패턴
+ 2. routes.rb => C(controller) => M(model) => C => V(view) 
+ 
